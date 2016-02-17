@@ -50,6 +50,8 @@
                 android:layout_height="wrap_content">
 
                 <!--PARKER HUBBARD WAS HERE -->
+                <!--Tim was here second...-->
+
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
