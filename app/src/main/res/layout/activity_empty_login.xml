@@ -11,6 +11,7 @@
     tools:context="com.example.cs246.medtracker.EmptyLogin">
 
     <!-- Login progress -->
+    <!-- Dason Was here! -->
     <ProgressBar
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
