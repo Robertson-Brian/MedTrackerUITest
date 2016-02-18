@@ -10,10 +10,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.cs246.medtracker.EmptyLogin">
 
-    <!-- Login progress PARKERS-->
+    <!-- Login progress PARKERS2222 -->
     <ProgressBar
         android:id="@+id/login_progress"
-        style="?android:attr/progressBarStyleLarge"
+        style="android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -68,7 +68,7 @@
 
             <Button
                 android:id="@+id/email_sign_in_button"
-                style="?android:textAppearanceSmall"
+                style="android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
