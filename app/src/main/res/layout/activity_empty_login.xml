@@ -12,6 +12,8 @@
 
     <!-- Login progress -->
     <!-- Dason Was here! -->
+
+    <!-- Login progress Bacon // brian -->
     <ProgressBar
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
