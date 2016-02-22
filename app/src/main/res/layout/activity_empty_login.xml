@@ -78,11 +78,6 @@
                 android:text="@string/action_sign_in"
                 android:textStyle="bold"/>
 
-            <ExpandableListView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/expandableListView22" />
-
         </LinearLayout>
     </ScrollView>
 
