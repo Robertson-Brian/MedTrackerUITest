@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="" android:layout_width="">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--android:layout_height="" android:layout_width=""> -->
     <!-- This code will display what we want on the certain menu bar-->
     <item
-        android:id="@+id/context_big"
-        android:title="Make Big" />
+        android:id="@+id/context_HomeScreen"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/context_Alerts"
+        android:title="Alerts" />
 
     <item
         android:id="@+id/context_small"
-        android:title="Make Small" />
+        android:title="Med Change" />
+
+    <item
+        android:id="@+id/context_Account"
+        android:title="Account" />
+
+    <item
+        android:id="@+id/context_Settings"
+        android:title="Settings" />
 </menu>

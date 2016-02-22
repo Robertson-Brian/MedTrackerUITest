@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import android.content.Intent;
 import android.support.v7.widget.PopupMenu;
 
 
@@ -73,23 +74,22 @@ public class PrescriptionTest extends AppCompatActivity {
     }
 
 
-    //create the menu
+    //created the menu
     //http://www.101apps.co.za/index.php/articles/using-menus-in-your-apps-a-tutorial.html
-    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         super.onCreateOptionsMenu(menu);
         //inflate the menu; this adds items to the action
         //bar if it is present
         getMenuInflater().inflate(R.menu.main, menu);
-        String title = "Item Three";
-        int groupID = Menu.None;
-        int itemId = MENU_ITEM;
+        String title = "Menu List";
+        int groupID = Menu.NONE;
+        int itemId = Menu.FIRST;
         int order = 103;
         menu.add(groupID, itemId, order, title);
         return true;
     }
-    */
+    //*/
 
 
 
