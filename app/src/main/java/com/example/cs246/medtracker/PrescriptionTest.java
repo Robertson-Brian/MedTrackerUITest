@@ -1,5 +1,6 @@
 package com.example.cs246.medtracker;
 
+import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -7,6 +8,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import android.support.v7.widget.PopupMenu;
 
 
 public class PrescriptionTest extends AppCompatActivity {
@@ -68,4 +71,27 @@ public class PrescriptionTest extends AppCompatActivity {
         else
             idView.setText(R.string.no_match);
     }
+
+
+    //create the menu
+    //http://www.101apps.co.za/index.php/articles/using-menus-in-your-apps-a-tutorial.html
+    /*
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        super.onCreateOptionsMenu(menu);
+        //inflate the menu; this adds items to the action
+        //bar if it is present
+        getMenuInflater().inflate(R.menu.main, menu);
+        String title = "Item Three";
+        int groupID = Menu.None;
+        int itemId = MENU_ITEM;
+        int order = 103;
+        menu.add(groupID, itemId, order, title);
+        return true;
+    }
+    */
+
+
+
+
 }

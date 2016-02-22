@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="" android:layout_width="">
+    <!-- This code will display what we want on the certain menu bar-->
+    <item
+        android:id="@+id/context_big"
+        android:title="Make Big" />
+
+    <item
+        android:id="@+id/context_small"
+        android:title="Make Small" />
+</menu>
