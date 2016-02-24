@@ -1,7 +1,8 @@
 package com.example.cs246.medtracker;
 
 import org.junit.Test;
-
+import android.app.Application;
+import android.test.ApplicationTestCase;
 import static org.junit.Assert.*;
 
 /**
