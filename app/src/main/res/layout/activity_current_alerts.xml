@@ -21,7 +21,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New CheckBox"
+        android:text="Exced PM"
         android:id="@+id/checkBox" />
 
     <CheckBox
@@ -56,5 +56,23 @@
         android:layout_height="wrap_content"
         android:text="Daily: 5 pm"
         android:id="@+id/textView5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meds Taken"
+        android:id="@+id/button8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove Reminders"
+        android:id="@+id/button9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Calendar"
+        android:id="@+id/button10" />
 
 </LinearLayout>
