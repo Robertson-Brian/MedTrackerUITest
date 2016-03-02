@@ -92,8 +92,26 @@ public class PrescriptionTest extends AppCompatActivity {
         return true;
     }
     //*/
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+            case R.id.context_ScripTest:
+                Intent item1 = new Intent(this, PrescriptionTest.class);
+                this.startActivity(item1);
+                break;
+            case R.id.context_login:
+                Intent item2 = new Intent(this, EmptyLogin.class);
+                this.startActivity(item2);
+                break;
+            case R.id.context_Alerts:
+                Intent item3 = new Intent(this, Alerts.class);
+                this.startActivity(item3);
+                break;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
 
-
-
+        return true;
+    }
 
 }

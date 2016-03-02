@@ -18,4 +18,5 @@
     <string name="delete_string">Delete</string>
     <string name="no_match">No Match Found</string>
     <string name="record_deleted">Record Deleted</string>
+    <string name="title_activity_alerts">Alerts</string>
 </resources>

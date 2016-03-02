@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MedTracker.iml" filepath="$PROJECT_DIR$/MedTracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LocalMMedUITest.iml" filepath="$PROJECT_DIR$/LocalMMedUITest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

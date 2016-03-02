@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- Parker was here -->
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--android:layout_height="" android:layout_width=""> -->
-    <!-- This code will display what we want on the certain menu bar-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kubuntu.acticityswitchtest.MainActivity">
+
     <item
         android:id="@+id/context_HomeScreen"
         android:title="Home" />
@@ -21,6 +23,12 @@
         android:title="Account" />
 
     <item
-        android:id="@+id/context_Settings"
-        android:title="Settings" />
+        android:id="@+id/context_ScripTest"
+        android:title="ScripTest" />
+
+    <item
+        android:id="@+id/context_login"
+        android:title="Login" />
+
+
 </menu>
