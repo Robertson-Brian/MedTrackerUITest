@@ -7,20 +7,12 @@
     tools:context="com.example.kubuntu.acticityswitchtest.MainActivity">
 
     <item
-        android:id="@+id/context_HomeScreen"
-        android:title="Home" />
-
-    <item
         android:id="@+id/context_Alerts"
         android:title="Alerts" />
 
     <item
-        android:id="@+id/context_small"
-        android:title="Med Change" />
-
-    <item
-        android:id="@+id/context_Account"
-        android:title="Account" />
+        android:id="@+id/context_calTest"
+        android:title="Cal Test" />
 
     <item
         android:id="@+id/context_ScripTest"
@@ -29,6 +21,5 @@
     <item
         android:id="@+id/context_login"
         android:title="Login" />
-
 
 </menu>

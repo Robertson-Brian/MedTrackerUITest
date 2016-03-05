@@ -19,14 +19,6 @@ public class Alerts extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
     }
 
     @Override
@@ -57,6 +49,10 @@ public class Alerts extends AppCompatActivity {
             case R.id.context_Alerts:
                 Intent item3 = new Intent(this, Alerts.class);
                 this.startActivity(item3);
+                break;
+            case R.id.context_calTest:
+                Intent item4 = new Intent(this, CalTest.class);
+                this.startActivity(item4);
                 break;
             default:
                 return super.onOptionsItemSelected(item);

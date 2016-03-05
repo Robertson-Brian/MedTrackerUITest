@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.cs246.medtracker.Alerts">
+    tools:context="com.example.cs246.medtracker.CalTest">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -21,6 +21,6 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_alerts" />
+    <include layout="@layout/content_cal_test" />
 
 </android.support.design.widget.CoordinatorLayout>

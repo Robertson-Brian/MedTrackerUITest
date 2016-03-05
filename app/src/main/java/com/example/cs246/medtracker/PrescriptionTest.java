@@ -107,6 +107,10 @@ public class PrescriptionTest extends AppCompatActivity {
                 Intent item3 = new Intent(this, Alerts.class);
                 this.startActivity(item3);
                 break;
+            case R.id.context_calTest:
+                Intent item4 = new Intent(this, CalTest.class);
+                this.startActivity(item4);
+                break;
             default:
                 return super.onOptionsItemSelected(item);
         }

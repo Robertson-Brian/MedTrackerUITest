@@ -19,4 +19,5 @@
     <string name="no_match">No Match Found</string>
     <string name="record_deleted">Record Deleted</string>
     <string name="title_activity_alerts">Alerts</string>
+    <string name="title_activity_cal_test">CalTest</string>
 </resources>
